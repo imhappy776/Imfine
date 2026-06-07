@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 15px 20px;
+  border-bottom: 3px solid orange;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://images.unsplash.com/photo-1519861531473-9200262188bf') center/cover;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.gallery {
+  padding: 40px;
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.images img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+.page {
+  padding: 40px;
+  text-align: center;
+}
+
+.banner {
+  width: 80%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  margin-top: 30px;
+}
